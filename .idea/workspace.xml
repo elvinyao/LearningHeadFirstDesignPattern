@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="Initial Create">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/FlayRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp1/Squeak.java" afterDir="false" />
+    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="finished exp01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/ForecastConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/StatisticsConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp2/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exp1/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exp1/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/elvin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elvin/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655389128169</updated>
       <workItem from="1655389129504" duration="3723000" />
-      <workItem from="1655398183360" duration="5288000" />
+      <workItem from="1655398183360" duration="11139000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Create">
       <created>1655395287829</created>
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655395287829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished exp01">
+      <created>1655638743037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655638743037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Create" />
+    <MESSAGE value="finished exp01" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished exp01" />
   </component>
 </project>
