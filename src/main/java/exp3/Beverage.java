@@ -17,6 +17,14 @@ package exp3;
  * Decorators are typically transparent to the client of the component—that is, unless the client is relying on the component’s concrete type.
  * Decorators can result in many small objects in our design, and overuse can be complex.”
  *
+ *
+ * “Real-World Decorators: Java I/O
+ * The large number of classes in the java.io package is...overwhelming. Don’t feel alone if you said “whoa” the first (and second and third) time you looked at this API. But now that you know the Decorator Pattern, the I/O classes should make more sense since the java.io package is largely based on Decorator. ”
+ *
+ * Excerpt From
+ * Head First Design Patterns, 2nd Edition
+ * Eric Freeman
+ * This material may be protected by copyright.
  */
 public abstract class Beverage {
     String description = "Unknown Beverage";
