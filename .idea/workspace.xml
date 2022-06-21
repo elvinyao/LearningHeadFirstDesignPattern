@@ -4,37 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="finished exp03">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Clams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/FreshClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Garlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/MarinaraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/PepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/RedPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/ReggianoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/SlicedPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/VeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp4/Veggies.java" afterDir="false" />
+    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="finished exp04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exp4/DuckOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exp4/SimplePizzaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/elvin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elvin/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655389128169</updated>
       <workItem from="1655389129504" duration="3723000" />
-      <workItem from="1655398183360" duration="28929000" />
+      <workItem from="1655398183360" duration="30172000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Create">
       <created>1655395287829</created>
@@ -153,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655742518408</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished exp04">
+      <created>1655829945041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655829945042</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +153,7 @@
     <MESSAGE value="finished exp01" />
     <MESSAGE value="finished exp02" />
     <MESSAGE value="finished exp03" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished exp03" />
+    <MESSAGE value="finished exp04" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished exp04" />
   </component>
 </project>
