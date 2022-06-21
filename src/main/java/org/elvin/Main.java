@@ -9,6 +9,10 @@ import exp2.ForecastConditionDisplay;
 import exp2.StatisticsConditionDisplay;
 import exp2.WeatherData;
 import exp3.*;
+import exp4.ChicagoPizzaStore;
+import exp4.NYPizzaStore;
+import exp4.Pizza;
+import exp4.PizzaStore;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,7 +37,7 @@ public class Main {
         weatherData.setMeasurements(78, 90, 29.2f);*/
 
         //EXP03 Decorator Pattern
-        Beverage beverage = new Espresso();
+        /*Beverage beverage = new Espresso();
         System.out.println(beverage.getDescription() + " $ " + beverage.cost());
         Beverage beverage2 = new DarkRoast();
 
@@ -46,7 +50,17 @@ public class Main {
         beverage3 = new Soy(beverage3);
         beverage3 = new Mocha(beverage3);
         beverage3 = new Whip(beverage3);
-        System.out.println(beverage3.getDescription() + " $ " + beverage3.cost());
+        System.out.println(beverage3.getDescription() + " $ " + beverage3.cost());*/
+
+        //EXP04 Factory Method Pattern
+        PizzaStore nyStore = new NYPizzaStore();
+        PizzaStore chicagoStore = new ChicagoPizzaStore();
+
+        Pizza pizza = nyStore.orderPizza("cheese");
+        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+
+        pizza = chicagoStore.orderPizza("cheese");
+        System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
 
     }
