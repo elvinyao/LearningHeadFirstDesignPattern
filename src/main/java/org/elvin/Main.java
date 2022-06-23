@@ -1,19 +1,5 @@
 package org.elvin;
 
-import exp1.Duck;
-import exp1.FlayRocketPowered;
-import exp1.MallardDuck;
-import exp1.ModelDuck;
-import exp2.CurrentConditionDisplay;
-import exp2.ForecastConditionDisplay;
-import exp2.StatisticsConditionDisplay;
-import exp2.WeatherData;
-import exp3.*;
-import exp4.ChicagoPizzaStore;
-import exp4.NYPizzaStore;
-import exp4.Pizza;
-import exp4.PizzaStore;
-
 public class Main {
     public static void main(String[] args) {
         /*
@@ -53,14 +39,7 @@ public class Main {
         System.out.println(beverage3.getDescription() + " $ " + beverage3.cost());*/
 
         //EXP04 Factory Method Pattern
-        PizzaStore nyStore = new NYPizzaStore();
-        PizzaStore chicagoStore = new ChicagoPizzaStore();
 
-        Pizza pizza = nyStore.orderPizza("cheese");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
-
-        pizza = chicagoStore.orderPizza("cheese");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
 
 
     }
