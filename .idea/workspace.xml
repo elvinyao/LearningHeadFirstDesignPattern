@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="finished exp05">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/GarageDoorOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/GarageDoorOpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp6/SwingObserverExample.java" afterDir="false" />
+    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="add command pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp8/CaffeineBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp8/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp8/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/PancakeHouseMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/Waitress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exp6/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exp6/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exp6/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exp6/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exp6/LightCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exp6/LightOnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exp6/RemoteControlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exp6/RemoteControlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +62,14 @@
       <recent name="exp6" />
       <recent name="exp4" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="exp9" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.exp6.RemoteLoader">
+  <component name="RunManager" selected="Application.MenuTestDrive">
     <configuration name="AnimalClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exp4.excersice.AnimalClient" />
       <module name="HeadFirstDesignPatterns" />
@@ -84,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.elvin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp9.MenuTestDrive" />
+      <module name="HeadFirstDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exp9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.exp6.RemoteLoader" />
         <item itemvalue="Application.exp6.RemoteControlTest" />
         <item itemvalue="Application.AnimalClient" />
@@ -136,7 +155,7 @@
       <updated>1655389128169</updated>
       <workItem from="1655389129504" duration="3723000" />
       <workItem from="1655398183360" duration="35049000" />
-      <workItem from="1655992273383" duration="22636000" />
+      <workItem from="1655992273383" duration="27738000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Create">
       <created>1655395287829</created>
@@ -201,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656025420705</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add command pattern">
+      <created>1656414103199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656414103199</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +251,7 @@
     <MESSAGE value="finished exp03" />
     <MESSAGE value="finished exp04" />
     <MESSAGE value="finished exp05" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished exp05" />
+    <MESSAGE value="add command pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add command pattern" />
   </component>
 </project>
