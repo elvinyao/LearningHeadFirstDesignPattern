@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="add command pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp8/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp8/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp8/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/DinerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/DinerMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/MenuTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/PancakeHouseMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/PancakeHouseMenuIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exp9/Waitress.java" afterDir="false" />
+    <list default="true" id="4ad757f5-e31e-4881-8e21-ef70343ba5c5" name="Changes" comment="add iterator pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp10/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp10/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp10/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp10/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp10/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exp10/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="exp6" />
@@ -155,7 +150,8 @@
       <updated>1655389128169</updated>
       <workItem from="1655389129504" duration="3723000" />
       <workItem from="1655398183360" duration="35049000" />
-      <workItem from="1655992273383" duration="27738000" />
+      <workItem from="1655992273383" duration="29234000" />
+      <workItem from="1656511016154" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Create">
       <created>1655395287829</created>
@@ -227,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656414103199</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add iterator pattern">
+      <created>1656420756002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656420756002</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +255,7 @@
     <MESSAGE value="finished exp04" />
     <MESSAGE value="finished exp05" />
     <MESSAGE value="add command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add command pattern" />
+    <MESSAGE value="add iterator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add iterator pattern" />
   </component>
 </project>
